@@ -14,4 +14,4 @@ When the project initialized, an Ajax call is made through Axios which obtains a
 
 <h1> To Start </h1>
 
-Clone the repository and then run npm install followed by npm start
+Clone the repository and then run npm install followed by npm start.
