@@ -1,0 +1,17 @@
+.container-react {
+  margin: 0 auto;
+  width: 80%;
+    text-align: center;
+}
+.slider-frame {
+height: 700px !important;
+border-radius: 10%;
+
+}
+
+h1 {
+  padding-top: 5%;
+}
+.slider-decorator-0, .slider-decorator-1 {
+   display: none;
+}
