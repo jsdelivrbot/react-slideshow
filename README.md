@@ -1,25 +1,13 @@
-# ReduxSimpleStarter
+This is a simple slideshow built with React and Redux utilizing the Nuka-Carousel package from
+npm.
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+When the project initialized, an Ajax call is made through Axios which obtains all the photo URLs and data from the API endpoint. After obtaining this data, the Slideshow component renders to the screen, and a map function is used to iterate over the data and compile it into Nuka-Carousel. The Carousel allows users to easily slide from one photo to the next.
 
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+<h1> Technologies Used </h1>
+<ul>
+<li>React.js</li>
+<li>Redux</li>
+<li>APIs</li>
+<li>Bootstrap (basic styling and components)</li>
+<li>Nuka-Carousel</li>
+</ul>
